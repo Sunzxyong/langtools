@@ -20,7 +20,9 @@ cd langtools/make
 ant -Dboot.java.home=${JAVA_HOME}
 ```
 
-**The JAVA version of the compilation environment must be the same as the langtools version.**
+The JAVA version of the compilation environment must be the same as the langtools version.
+
+You can also use GNU make.
 
 ----
 
