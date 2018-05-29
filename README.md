@@ -24,6 +24,17 @@ The JAVA version of the compilation environment must be the same as the langtool
 
 You can also use GNU make.
 
+# Output
+The output of the build is as follows:
+```
+ build
+   |-bin (scripts to invoke various tools, javac, javah etc.)
+   |-genrsc (generated sources - i.e. properties)
+   |-modules (compiled classes in a modular layout)
+   |-jtreg (test work/results)
+   |-toolclasses (tools used for building - like the property compiler)
+```
+
 ----
 
 Building the "langtools" workspace.
