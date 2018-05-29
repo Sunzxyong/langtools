@@ -35,6 +35,8 @@ The output of the build is as follows:
    |-toolclasses (tools used for building - like the property compiler)
 ```
 
+for more, see http://hg.openjdk.java.net/
+
 ----
 
 Building the "langtools" workspace.
